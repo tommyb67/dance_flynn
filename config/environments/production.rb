@@ -75,6 +75,14 @@ DanceFlynn::Application.configure do
   # Disable automatic flushing of the log to improve performance.
   # config.autoflush_log = false
 
+   ####################### DEVISE NEED TO UPDATE TO DOMAIN NAME ##################
+
+  # Required for Heroku
+  # This will need to be udpated to the domain name
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
+  ################################################################################
+
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
 end
