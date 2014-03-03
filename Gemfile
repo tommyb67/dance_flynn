@@ -30,6 +30,12 @@ gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass'
 gem 'paperclip', '~> 3.0'
 gem 'devise', '3.2.2'
+gem 'pry-rails'
+
+
+group :development, :test do
+  gem 'rspec-rails', '~> 2.0'
+end
 
 
 group :doc do
