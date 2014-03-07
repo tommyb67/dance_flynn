@@ -34,7 +34,12 @@ gem 'pry-rails'
 
 
 group :development, :test do
-  gem 'rspec-rails', '~> 2.0'
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'shoulda-matchers'
+  gem 'launchy'
+  gem 'factory_girl_rails'
+  gem 'ffaker'
 end
 
 
